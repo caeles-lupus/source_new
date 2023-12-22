@@ -6,8 +6,8 @@ body {
 }
 
 .main {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .bg_color {
@@ -61,6 +61,7 @@ body {
     font-size: 121%;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .common_description {
