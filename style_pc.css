@@ -1,0 +1,579 @@
+/* Верхняя строка */
+
+.header {
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3b3c3e;
+    font-size: 22px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+.header>img {
+    min-width: 20px;
+    max-width: 43px;
+    width: 10%;
+    margin-left: 10px;
+}
+
+.phone_number {
+    margin-right: 9px;
+}
+
+.phone_icon {
+    width: 15px;
+    position: relative;
+    top:3px;
+    right: 4px;
+}
+
+.divider {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* block 1 - text, button, image */
+
+
+.block1 {
+    padding-top: 8vh;
+    display: flex;
+    justify-content: stretch;
+    padding-bottom: 37vh;
+}
+
+.block1_text {
+    width: 80%;
+}
+
+.block1_img_outter {
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+.block1_img_outter>img {
+    width: 100%;
+}
+
+.advert_text_thin {
+    font-size: 200%;
+    font-weight:1;
+    color: #33363f;
+}
+
+.advert_text_bold {
+    font-size: 50px;
+    font-weight: 400;
+    color: #33363f;
+}
+
+.advert_text_blue {
+    font-size: 41px;
+    font-weight: 1;
+    color: #60acea;
+}
+
+.advert_tagline {
+    font-size: 19px;
+    margin-top: 56px;
+    color: #33363f;
+    font-weight:1;
+    line-height: 1.5;
+}
+
+.block_button_outter {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+
+.block_button {
+    padding: 15px 30px;
+    padding-right: 20px;
+    font-size: 21px;
+    font-weight:1;
+    background-color: #3598db;
+    color: white;
+    border-radius: 30px;
+}
+
+.block_button_img {
+    height: 21px;
+    position: relative;
+    top: 4px;
+    left: -7px;
+    padding-left: 7px;
+    padding-right: 4px;
+}
+
+/* Радиальный разделитель фона и иконки на нём */
+
+.convex_bg {
+    left: -10%;
+    background-color: #ffffff;
+    width: 120%;
+    position: relative;
+    border-radius: 90% 90% 0 0;
+    height: 100px;
+    top: -93px;
+    z-index: 0;
+}
+
+.benefits {
+    display: flex;
+    position: absolute;
+    padding: 0px 33.3%;
+    top: -62px;
+}
+
+.benefit_icon {
+    width: 23%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12%;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #e3e3e3;
+    transition: transform 0.2s linear;
+}
+
+.benefit_icon:hover {
+    transform: rotate(360deg);
+}
+
+.benefit_text {
+    text-align: center;
+    color: #6a6a6c;
+    font-size: calc(50% + 0.6vw);
+    margin: 0.5vh;
+}
+
+.benefit {
+    position: relative;
+    width: 100%;
+}
+
+.first_benefit {
+    /* position: relative; */
+    /* margin-left: 10%; */
+}
+
+.rised {
+    top: -2vh;
+}
+
+/* Block 2 - main title, picture and text */
+
+.block2 {
+    position: relative;z-index: 1;
+}
+
+.block2_title {
+    text-align: center;
+}
+
+.block2_content {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.block2_photo {}
+
+.block2_text {
+    margin-left: 103px;
+}
+
+.block2_button {
+    text-align: center;
+}
+
+/* Блок про физическую активность */
+
+.phys_activity {
+    background-color: #f5f5f5;
+    padding-bottom: 2.8%;
+    padding-top: 2%;
+}
+
+.phys_title {
+    text-align: center;
+    font-size: 1.85em;
+}
+
+.phys_activity_outter {
+    padding-left: 9%;
+    padding-right: 10%;
+}
+
+.phys_activity_text {
+    text-align: center;
+    line-height: 140%;
+}
+
+/* Блок, состоящий из 3 строк: картинка и текст */
+
+.block3 {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 7%;
+}
+
+.block3_text {
+    font-size: 0.9em;
+    color: #908F90;
+}
+
+.block3_part {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+.block3_left_part {
+    flex-direction: row;
+}
+
+.block3_right_part {
+    flex-direction: row-reverse;
+}
+
+.hblock_description {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #908F90;
+}
+
+.block3_img {
+    margin-top: 100px;
+}
+
+/* Блок приложений: заголовок, картинка, текст, две картинки */
+
+.appmifit {
+    
+padding-top: 2.5%;
+}
+
+.appmifit_title {
+    text-align: center;
+    font-size: 1.85em;
+}
+
+.appmifit_content {
+    display: flex;
+    margin-left: 32.5%;
+    margin-right: 21%;
+    margin-top: 4%;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.appmifit_img {
+
+margin-top: 5%;
+}
+
+.appmifit_text {
+    margin-left: 11%;
+}
+
+.inappstore_title {
+    font-size: 1.7em;
+}
+
+.appmifit_downloads_images {
+    margin-top: 40px;
+}
+
+.appmifit_downloads_image{
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+/* Экранчики, 5 шт. 3-ий больше остальных */
+
+.appmifit_screens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+.appmifit_screen_outter {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.appmifit_screen {
+    -webkit-filter: drop-shadow(0px -3px 26px #616161);
+    filter: drop-shadow(0px -5px 25px #b0b0b0);
+}
+
+.appmifit_central_screen {
+    border-radius: 9%;
+}
+
+/* О приобретении браслета */
+
+.bracelet {
+    height: 75vh;
+}
+
+.bracelet_title {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.bracelet_content {
+    padding-left: 3%;
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.bracelet_img {
+
+}
+
+.bracelet_right {
+
+}
+
+.bracelet_linev {
+    margin-top: 3%;
+    height: 20%;
+    width: 0px;
+    border: 2px solid #3598db;
+    border-radius: 5px;
+    float: left;
+    margin-right: 1.6em;
+    margin-left: 4%;
+}
+
+.bracelet_text {
+    padding-left: 3%;
+}
+
+.bracelet_subtitle_shadow {
+    color: #939393;
+}
+
+.bracelet_model {
+    color: #33363f;
+    font-size: 45px;
+}
+
+.bracelet_price {
+    font-size: 45px;
+    font-weight: normal;
+    color: #60acea;
+}
+
+.bracelet_list {
+    padding: 0;
+    margin-left: -4%;
+    line-height: 123%;
+}
+
+.bracelet_highlighted {
+    font-weight: bold;
+    color: #000000;
+}
+
+
+/* Отзывы: Заголовок двухстилевой, описание под заголовком, картинка, текст */
+
+.reviews {
+    height: 69vh;
+}
+
+.reviews_title {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.reviews_linev {
+    border-left: 1px solid #3598db;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0.7%;
+}
+
+.reviews_description {
+    text-align: center;
+    margin-top: 1.6%;
+}
+
+.reviews_content {
+    margin-top: 4.5%;
+    display: flex;
+    margin-left: 6%;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.arrow_left {
+    width: 6.1%;
+    position: absolute;
+    left: -19.4%;
+    top: 37.5%;
+}
+
+.reviews_img {
+
+}
+
+.reviews_info {
+    margin-top: 9%;
+    margin-left: 35px;
+}
+
+.reviews_weight_block {
+    float: left;
+    margin-right: 30px;
+}
+
+.reviews_number {
+    color: #33363f;
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+
+.reviews_units {
+    color: #33363f;
+    font-size: 20px;
+}
+
+.reviews_blue_text {
+    color: #36b3df;
+    font-size: 75%;
+    font-weight: 700;
+}
+
+.reviews_height_block {
+
+}
+
+.reviews_name_block {
+    margin-top: 40px;
+}
+
+.reviews_name_linev {
+    height: 40px;
+    width: 0px;
+    border: 2px solid #3598db;
+    border-radius: 5px;
+    float: left;
+    position: relative;
+    top: 8px;
+    right: 10px;
+    margin-left: 10px;
+}
+
+.reviews_name {
+    color: #33363f;
+    font-size: 30px;
+}
+
+.reviews_age {
+    font-size: 95%;
+    color: #8c8c8c;
+}
+
+.arrow_right {
+    width: 6.1%;
+    position: absolute;
+    right: 10.7%;
+    top: 37.5%;
+}
+
+.points_block {
+    text-align: center;
+}
+
+.point {
+    width: 13px;
+    height: 13px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 50px;
+}
+
+.point_blue {
+
+}
+
+/* Подавл: Заголовок разностилевой с вертикальным разделителем, описание под заголовком, поле ввода  */
+
+.footer_bg {
+    background-color: #0a0a0a;
+}
+
+.footer_title {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.footer_title_big {
+    /* padding-top: 9%; */
+}
+
+.footer_title_normal {
+    font-size: 50%;
+    font-weight: lighter;
+    color: #d1cbcb;
+    margin-top: 1%;
+}
+
+.footer_text {
+    margin-top: 20px;
+    font-size: 17px;
+    color: #999999;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer_phone {
+    text-align: center;
+    margin-top: 2%;
+    padding-bottom: 100px;
+}
+
+.footer_phone_inp {
+    font-size: 16px;
+    padding: 17px 4%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: transparent;
+}
+
+.footer_phone_btn {
+    color: #ffffff;
+    background-color: #00a0d8;
+    padding: 17px 40px;
+    font-size: 16px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    left: -5px;
+    top: 0px;
+}
